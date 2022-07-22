@@ -63,8 +63,7 @@ ul {
     transform: scale(1.02);
 }
 
-.book-title {
-    
+.book-title { 
     margin-top: 1rem;
 }
 
@@ -103,6 +102,14 @@ nav {
 
 footer {
     display: flex;
-    flex-direction: row;
-    
+    padding: 2rem 1rem;
+    justify-content: flex-end;
+    background-color: blanchedalmond;
 }
+
+.footer-list {
+    display: flex;
+    gap: 3rem;
+}
+
+
