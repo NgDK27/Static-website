@@ -98,3 +98,11 @@ nav {
     font-size: 1.7rem;
     padding: 0.3rem 0.5rem;
 }
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    
+}
