@@ -14,7 +14,7 @@
 }
 
 .main-image {
-    width: 50%;
+    width: 100%;
     height: 40%;
     display: flex;
     justify-content: center;
@@ -36,11 +36,10 @@
 
 .other-images img {
     height: 100%;
-    width: 50%;
+    width: 60%;
 }   
 
 .buy-info {
-    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,9 +53,13 @@
     margin: 2rem 2rem 0 2rem;
 }
 
-.description {
+.book-info-container {
+    width: 80%;
     margin: 0 auto;
-    margin-bottom: 1rem;
+}
+
+.description {
+    margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 960px) {
@@ -68,6 +71,10 @@
 
     .other-images {
         flex-direction: row;
+    }
+
+    .book-info-container {
+        width: 100%;
     }
 
     .buy-info,
