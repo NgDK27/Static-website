@@ -40,4 +40,12 @@ main {
     .form-row {
         flex-direction: column;
     }
+
+    #name,
+    #email,
+    #phone,
+    #message,
+    #purpose {
+        width: 70%;
+    }
 }
