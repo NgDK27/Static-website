@@ -36,9 +36,13 @@ ul {
 }
 
 .category-container {
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 2rem auto;
   width: 80%;
+}
+
+.category-section ul {
+    width: 95%;
+    margin: auto;
 }
 
 .title {
@@ -51,10 +55,11 @@ ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 3rem;
+    margin: 0 auto;
 }
 
 .book-image img {
-    height: 40rem;
+    height: 35rem;
 }
 
 .book-image:hover img {
