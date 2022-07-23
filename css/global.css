@@ -130,4 +130,17 @@ footer {
       .list-link {
         font-size: 1.6rem;
     }
+
+    #footer {
+        height: initial;
+      }
+
+    .footer-list {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+      .footer-list-link {
+        font-size: 1.6rem;
+    }
 }
