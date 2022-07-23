@@ -28,6 +28,7 @@ main {
 .form-btn {
     width: 15rem;
     display: inline-block;
+    /* margin-right: 2rem; */
 }
 
 .form-row {
