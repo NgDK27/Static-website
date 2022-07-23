@@ -35,6 +35,11 @@
     width: 60%;
 }   
 
+.other-images img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 .buy-info {
     display: flex;
     flex-direction: column;

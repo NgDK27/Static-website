@@ -77,7 +77,7 @@ ul {
 
 .book-image:hover img {
     cursor: pointer;
-    transform: scale(1.02);
+    transform: scale(1.05);
 }
 
 .book-title { 
@@ -113,6 +113,10 @@ nav {
 .nav-list {
     display: flex;
     gap: 5rem;
+}
+
+.nav-list-item a:hover {
+    opacity: 0.5;
 }
 
 .logo {
