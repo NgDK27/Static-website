@@ -1,0 +1,42 @@
+main {
+    margin: 2rem;
+}
+
+.form-field {
+    margin-left: 2rem;
+}
+
+#purpose {
+    font-family: "Space Mono";
+    padding: 1rem;
+    width: 100%;
+}
+
+#name,
+#email,
+#phone {
+    padding: 0.5rem;
+    width: 100%;
+    font-family: "Space Mono";
+}
+
+#message {
+    font-family: "Space Mono";
+    width: 100%;
+}
+
+.form-btn {
+    width: 15rem;
+    display: inline-block;
+}
+
+.form-row {
+    display: flex;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 960px) {
+    .form-row {
+        flex-direction: column;
+    }
+}

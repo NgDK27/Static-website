@@ -38,6 +38,136 @@
       </div>
     </header>
 
+    <main>
+      <h3 class="title">Contact Us</h3>
+      <form method="post" action="contact.html">
+        <div class="form-row">
+          <div class="form-label">
+            <label for="purpose">Contact purpose:</label>
+          </div>
+          <div class="form-field">
+            <select name="purpose" id="purpose">
+              <option value="sell">I want to sell books</option>
+              <option value="buy">I want to buy books</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-label">
+            <label for="name">Your name :</label>
+          </div>
+          <div class="form-field">
+            <input required id="name" type="text" name="name" maxlength="50" />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-label">
+            <label for="email">Your email:</label>
+          </div>
+          <div class="form-field">
+            <input required id="email" type="email" name="email" />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-label">
+            <label for="phone">Your phone:</label>
+          </div>
+          <div class="form-field">
+            <input
+              required
+              id="phone"
+              type="tel"
+              name="phone"
+              pattern="[0-9]{9,13}"
+              title="Enter 9 to 13 digits"
+            />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-label">
+            <label>How can we contact you:</label>
+          </div>
+          <div class="form-field">
+            <ul>
+              <li>
+                <input
+                  type="checkbox"
+                  id="contact_email"
+                  name="contact_method"
+                  value="email"
+                />
+                <label for="contact_email">By email</label>
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  id="contact_phone"
+                  name="contact_method"
+                  value="phone"
+                />
+                <label for="contact_phone">By phone</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-label">
+            <label>Do you want to receive our weekly newsletter:</label>
+          </div>
+          <div class="form-field">
+            <ul>
+              <li>
+                <input
+                  type="radio"
+                  id="yes"
+                  name="newsletter"
+                  value="accpect"
+                  checked
+                />
+                <label for="yes">Yes</label>
+              </li>
+              <li>
+                <input type="radio" id="no" name="newsletter" value="decline" />
+                <label for="no">No</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-label">
+            <label for="message">Note:</label>
+          </div>
+          <div class="form-field">
+            <textarea
+              cols="40"
+              rows="10"
+              required
+              id="message"
+              name="message"
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="btn-container">
+            <input
+              type="submit"
+              id="sumbit"
+              class="btn form-btn"
+              value="Send"
+            />
+            <input type="reset" id="reset" class="btn form-btn" value="Clear" />
+          </div>
+        </div>
+      </form>
+    </main>
+
     <footer id="footer">
       <div class="footer-container">
         <div class="footer-menu">

@@ -68,6 +68,9 @@ ul {
 
 .category-title {
     padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -115,6 +118,24 @@ footer {
 .footer-list {
     display: flex;
     gap: 3rem;
+}
+
+.btn {
+    font-family: "Space Mono";
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    width: 25rem;
+    height: 5rem;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    background-color: bisque; 
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 960px) {
