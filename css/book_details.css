@@ -46,9 +46,14 @@
     justify-content: center;
 }
 
+.buy-btn {
+    width: 20rem;
+}
+
 .book-info {
     margin: 2rem 2rem 0 2rem;
 }
+
 .description {
     margin: 0 auto;
     margin-bottom: 1rem;
@@ -57,7 +62,7 @@
 @media screen and (max-width: 960px) {
     .book-container {
         flex-direction: column;
-        /* margin-left: 10rem; */
+        margin-left: 10rem;
         margin: 0 auto;
     }
 
@@ -65,7 +70,8 @@
         flex-direction: row;
     }
 
-    .buy-info {
-        margin: 0 auto;
+    .buy-info,
+    .buy-btn {
+        width: 100%;
     }
 }
