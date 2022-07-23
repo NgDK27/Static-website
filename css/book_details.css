@@ -1,0 +1,78 @@
+
+.breadcumb {
+    margin: 2rem;
+}
+
+.book-container {
+    width: 80%;
+    display: flex;
+    gap: 3rem;
+}
+
+
+.main-image {
+    width: 50%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.other-images {
+    /* width: 20%; */
+    /* height: 80%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.other-images img {
+    height: 100%;
+}   
+
+.btn {
+    font-family: "Space Mono";
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    width: 25rem;
+    height: 5rem;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background-color: bisque; 
+}
+
+ .buy-info {
+    width: 40%;
+    display: flex;
+    margin-left: 3rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.book-info {
+    margin: 2rem 2rem 0 2rem;
+}
+.description {
+    /* width: 80%; */
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 960px) {
+    .book-container {
+        flex-direction: column;
+    }
+
+    .other-images {
+        flex-direction: row;
+        gap: 2rem;
+    }
+}
