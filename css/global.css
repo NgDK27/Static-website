@@ -40,9 +40,23 @@ ul {
   width: 80%;
 }
 
+.category-title {
+    padding: 2rem;
+    height: 5rem;
+    background-color: #F8F1AE;
+    width: 100%;
+    border-radius: 5%;
+    /* width: 25rem; */
+}
+
 .category-section ul {
     width: 95%;
     margin: auto;
+}
+
+.category-section ul li {
+    /* margin-left: 3rem; */
+    margin: 0 auto;
 }
 
 .title {
@@ -73,6 +87,7 @@ ul {
 
 .category-title {
     padding: 1rem 0;
+    margin-bottom: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,16 +141,17 @@ footer {
 }
 
 .btn {
-    font-family: "Space Mono";
-    font-size: 1.6rem;
-    font-weight: bold;
-    margin-top: 2rem;
-    width: 25rem;
-    height: 5rem;
+    font-family: "Space Mono", monospace;
     border: none;
+    width: 100%;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    height: 5rem;
     border-radius: 10px;
     color: black;
     background-color: bisque; 
+    width: 100%;
 }
 
 .btn:hover {
